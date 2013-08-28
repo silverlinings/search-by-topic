@@ -15,8 +15,11 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 REGISTRATION_INSTRUCTIONS = """
     You must set up a project and get an API key to run this code. Please see
     the instructions for creating a project and a key at <a
-    href="https://developers.google.com/youtube/registering_an_application"
-    >https://developers.google.com/youtube/registering_an_application</a>.
+    href="https://devsite.googleplex.com/youtube/registering_an_application"
+    >https://devsite.googleplex.com/youtube/registering_an_application</a>.
+    You do not need to set up OAuth credentials for this project.
+    Once you have obtained a key, search for the text 'REPLACE_ME' in the 
+    code below and replace that string with your key.
     <br><br>
     Make sure that you have enabled the YouTube Data API (v3) and the Freebase
     API for your project."""
